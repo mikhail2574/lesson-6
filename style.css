@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(197, 245, 197);
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.block{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.yellow{
+    background: yellow;
+}
+.gray{
+    background: gray;
+    width: 50%;
+}
+.black{
+    background: black;
+    width: 50%;
+}
+.wrapper{
+    background: lightgreen;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+.block-2{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+}
+.wrapper *{
+    margin-right: 25px;
+}
